@@ -6,7 +6,7 @@
 <title>Quintoedge Global</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <style>
   :root {
@@ -27,7 +27,7 @@
   body {
     background: var(--bg);
     color: var(--white);
-    font-family: 'DM Sans', Arial, sans-serif;
+    font-family: 'Instrument Sans', sans-serif;
     overflow-x: hidden;
     line-height: 1.7;
     cursor: none;
@@ -75,7 +75,7 @@
   .nav-links { display: flex; gap: 32px; align-items: center; }
   .nav-links a {
     color: var(--text-mid); text-decoration: none;
-    font-family: 'DM Sans', sans-serif; font-size: 14px; letter-spacing: 0.04em;
+    font-family: 'Instrument Sans', sans-serif; font-size: 14px; letter-spacing: 0.04em;
     transition: color 0.2s; position: relative;
   }
   .nav-links a::after {
@@ -88,7 +88,7 @@
     background: var(--green); color: var(--white);
     border: none; border-radius: 999px;
     padding: 10px 24px; font-size: 13px; font-weight: 600;
-    font-family: 'DM Sans', sans-serif; cursor: none; letter-spacing: 0.05em;
+    font-family: 'Instrument Sans', sans-serif; cursor: none; letter-spacing: 0.05em;
     transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
     text-decoration: none;
   }
@@ -116,7 +116,7 @@
     display: inline-flex; align-items: center; gap: 8px;
     background: rgba(21,93,40,0.20); border: 1px solid rgba(21,93,40,0.45);
     border-radius: 999px; padding: 5px 16px; margin-bottom: 20px;
-    font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.15em;
+    font-family: 'Instrument Sans', sans-serif; font-size: 11px; letter-spacing: 0.15em;
     color: #4ade80; text-transform: uppercase;
     animation: pulseGlow 3s ease-in-out infinite;
   }
@@ -127,14 +127,14 @@
   .hero-eyebrow::before { content:''; width:6px; height:6px; border-radius:50%; background:#4ade80; display:block; animation: blink 2s ease-in-out infinite; }
   @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
   .hero h1 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: 'Syne', sans-serif;
     font-size: clamp(36px, 4.8vw, 58px);
     font-weight: 700; line-height: 1.08;
     letter-spacing: -0.02em; margin-bottom: 18px;
   }
   .hero h1 em { font-style: italic; color: #4ade80; }
   .hero-body {
-    font-family: 'DM Sans', sans-serif; font-size: 15.5px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 15.5px;
     color: var(--text-mid); line-height: 1.8; margin-bottom: 30px;
     max-width: 520px;
   }
@@ -144,7 +144,7 @@
     background: var(--green); color: var(--white);
     border: none; border-radius: 999px;
     padding: 14px 32px; font-size: 15px; font-weight: 600;
-    font-family: 'DM Sans', sans-serif; cursor: none; letter-spacing: 0.04em;
+    font-family: 'Instrument Sans', sans-serif; cursor: none; letter-spacing: 0.04em;
     text-decoration: none; transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
     box-shadow: 0 0 28px rgba(21,93,40,0.35);
     position: relative; overflow: hidden;
@@ -162,7 +162,7 @@
     background: var(--glass); color: var(--white);
     border: 1px solid var(--glass-border); border-radius: 999px;
     padding: 13px 28px; font-size: 15px; font-weight: 500;
-    font-family: 'DM Sans', sans-serif; cursor: none;
+    font-family: 'Instrument Sans', sans-serif; cursor: none;
     text-decoration: none; backdrop-filter: blur(8px);
     transition: background 0.2s, border-color 0.2s;
   }
@@ -174,7 +174,7 @@
     position: fixed; z-index: 500; pointer-events: none;
     background: rgba(10,22,40,0.92); border: 1px solid rgba(74,222,128,0.3);
     border-radius: 10px; padding: 8px 14px;
-    font-family: 'DM Sans', sans-serif; font-size: 13px; color: #4ade80;
+    font-family: 'Instrument Sans', sans-serif; font-size: 13px; color: #4ade80;
     backdrop-filter: blur(12px); opacity: 0; transition: opacity 0.2s;
     white-space: nowrap;
   }
@@ -189,16 +189,16 @@
   /* ── SECTIONS ── */
   section { padding: 90px 60px; position: relative; }
   .section-label {
-    font-family: 'DM Sans', sans-serif; font-size: 11px; letter-spacing: 0.2em;
+    font-family: 'Instrument Sans', sans-serif; font-size: 11px; letter-spacing: 0.2em;
     color: #4ade80; text-transform: uppercase; margin-bottom: 10px;
   }
   .section-title {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: 'Syne', sans-serif;
     font-size: clamp(28px, 3.5vw, 42px); font-weight: 700;
     line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 16px;
   }
   .section-body {
-    font-family: 'DM Sans', sans-serif; font-size: 15.5px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 15.5px;
     color: var(--text-mid); line-height: 1.8; max-width: 660px;
   }
   .section-body p + p { margin-top: 12px; }
@@ -235,10 +235,10 @@
   }
   .problem-card .icon svg { width:20px; height:20px; stroke:#4ade80; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
   .problem-card h3 {
-    font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 600; margin-bottom: 10px;
+    font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 600; margin-bottom: 10px;
   }
   .problem-card p {
-    font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 14px;
     color: var(--text-muted); line-height: 1.7;
   }
   .problem-callout {
@@ -246,7 +246,7 @@
     background: rgba(21,93,40,0.10);
     border: 1px solid rgba(21,93,40,0.28);
     border-radius: 14px; backdrop-filter: blur(12px);
-    font-family: 'Cormorant Garamond', serif; font-size: 18px;
+    font-family: 'Syne', sans-serif; font-size: 18px;
     color: var(--text-mid); font-style: italic; line-height: 1.7;
   }
   .problem-callout strong { color: #4ade80; font-style: normal; }
@@ -272,27 +272,27 @@
     background: linear-gradient(90deg, var(--green), transparent);
   }
   .method-num {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Syne', sans-serif;
     font-size: 56px; font-weight: 700; color: rgba(21,93,40,0.18);
     line-height: 1; margin-bottom: 6px;
   }
   .method-card h3 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Syne', sans-serif;
     font-size: 22px; font-weight: 600; margin-bottom: 10px;
     color: #4ade80;
   }
   .method-card .method-tag {
-    font-family: 'DM Sans', sans-serif; font-size: 11px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 11px;
     font-weight: 600; color: var(--text-muted); margin-bottom: 10px;
     letter-spacing: 0.1em; text-transform: uppercase;
   }
   .method-card p {
-    font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 14px;
     color: var(--text-mid); line-height: 1.75;
   }
   .method-closer {
     margin-top: 32px; text-align: center;
-    font-family: 'DM Sans', sans-serif; font-size: 17px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 17px;
     color: var(--text-mid); padding: 26px;
     background: rgba(21,93,40,0.08); border: 1px solid rgba(21,93,40,0.22);
     border-radius: 14px;
@@ -329,11 +329,11 @@
   }
   .for-card .for-icon svg { width:20px; height:20px; stroke:var(--green); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
   .for-card h3 {
-    font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 700; margin-bottom: 10px;
+    font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 10px;
     color: #10213B;
   }
   .for-card p {
-    font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 14px;
     color: rgba(16,33,59,0.65); line-height: 1.7;
   }
   .not-for {
@@ -343,14 +343,14 @@
     border-radius: 18px; border-left: 3px solid #e53e3e;
   }
   .not-for h3 {
-    font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 700; margin-bottom: 14px;
+    font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 14px;
     color: #10213B;
   }
   .not-for ul {
     list-style: none; display: flex; flex-direction: column; gap: 10px;
   }
   .not-for ul li {
-    font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 14px;
     color: rgba(16,33,59,0.7); display: flex; align-items: flex-start; gap: 10px;
     line-height: 1.6;
   }
@@ -376,19 +376,19 @@
   }
   .footer-logo img { height: 36px; }
   .footer-tagline {
-    font-family: 'DM Sans', sans-serif; font-size: 12px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 12px;
     color: var(--text-muted); margin-top: 7px; letter-spacing: 0.05em;
   }
   .footer-right { text-align: right; }
   .footer-links { display: flex; gap: 22px; margin-bottom: 8px; justify-content: flex-end; }
   .footer-links a {
-    font-family: 'DM Sans', sans-serif; font-size: 13px;
+    font-family: 'Instrument Sans', sans-serif; font-size: 13px;
     color: var(--text-muted); text-decoration: none; letter-spacing: 0.04em;
     transition: color 0.2s;
   }
   .footer-links a:hover { color: var(--white); }
   .footer-copy {
-    font-family: 'DM Sans', sans-serif; font-size: 12px; color: rgba(255,255,255,0.28);
+    font-family: 'Instrument Sans', sans-serif; font-size: 12px; color: rgba(255,255,255,0.28);
   }
 
   /* ── BG GLOW ── */
@@ -424,12 +424,12 @@
     display:flex; flex-direction:column;
   }
   .stat-num {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Syne', sans-serif;
     font-size: 42px; font-weight: 700; color: #4ade80;
     line-height:1;
   }
   .stat-label {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Instrument Sans', sans-serif;
     font-size: 12px; color: var(--text-muted);
     letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px;
   }
@@ -438,8 +438,26 @@
   @media (max-width: 900px) {
     nav { padding: 14px 24px; }
     .nav-links { display: none; }
-    .hero { padding: 100px 24px 50px; }
-    #globe-canvas { width: 320px; height: 320px; right: -100px; opacity: 0.35; }
+    .hero {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 90px 24px 40px;
+      min-height: auto;
+      overflow: visible;
+    }
+    .hero-content {
+      max-width: 100%;
+      margin-right: 0;
+    }
+    #globe-canvas {
+      position: static !important;
+      transform: none !important;
+      width: 300px !important;
+      height: 300px !important;
+      opacity: 1 !important;
+      display: block;
+      margin: 24px auto 0;
+    }
     section { padding: 65px 24px; }
     .problem-grid, .method-grid, .for-grid { grid-template-columns: 1fr; }
     footer { padding: 32px 24px; flex-direction: column; text-align: center; }
@@ -450,6 +468,8 @@
   /* ── FADE IN ── */
   .fade-in { opacity: 0; transform: translateY(28px); transition: opacity 0.8s cubic-bezier(0.16,1,0.3,1), transform 0.8s cubic-bezier(0.16,1,0.3,1); }
   .fade-in.visible { opacity: 1; transform: translateY(0); }
+  /* Hero is always in viewport — show immediately */
+  .hero .fade-in { opacity: 1; transform: translateY(0); }
   
   /* ── SCROLL PROGRESS ── */
   #scroll-progress {
@@ -492,7 +512,6 @@
 
 <!-- HERO -->
 <section class="hero" id="home">
-  <canvas id="globe-canvas"></canvas>
   <div class="hero-content fade-in">
     <div class="hero-eyebrow">African Markets · Global Ambition</div>
     <h1>Most African Startups Die With a <em>Good Idea.</em></h1>
@@ -520,6 +539,7 @@
       <a href="#invitation" class="btn-ghost">Book a Session</a>
     </div>
   </div>
+  <canvas id="globe-canvas"></canvas>
 </section>
 
 <!-- PROBLEM -->
@@ -740,7 +760,8 @@ function animateCounter(el) {
 
   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
   renderer.setPixelRatio(window.devicePixelRatio);
-  renderer.setSize(640, 640);
+  const _initSize = window.innerWidth <= 900 ? 300 : Math.min(window.innerWidth * 0.45, 640);
+  renderer.setSize(_initSize, _initSize);
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
@@ -1003,7 +1024,7 @@ function animateCounter(el) {
   animate();
 
   window.addEventListener('resize', () => {
-    const size = Math.min(window.innerWidth * 0.45, 640);
+    const size = window.innerWidth <= 900 ? 300 : Math.min(window.innerWidth * 0.45, 640);
     renderer.setSize(size, size);
   });
 })();
